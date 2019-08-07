@@ -26,7 +26,7 @@ Returns a sign for payment.
 
 
 
-## Using
+## Usage
 
 ```js
  var freekassa = require('freekassa-api');
