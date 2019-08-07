@@ -1,0 +1,30 @@
+{
+  "name": "free-kassa-api",
+  "version": "1.0.0",
+  "description": "free-kassa api for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ph1nease/freekassa-api.git"
+  },
+  "keywords": [
+    "free-kassa",
+    "api",
+    "module",
+    "npm",
+    "payment",
+    "system"
+  ],
+  "author": "agasparyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ph1nease/freekassa-api/issues"
+  },
+  "homepage": "https://github.com/ph1nease/freekassa-api#readme",
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
