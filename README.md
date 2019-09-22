@@ -18,11 +18,11 @@ Returns a URL to payment form.
 
 ### .createFirstSign(orderAmount, orderId)
 
-Returns a sign for payment form.
+Returns sign for payment form
 
 ### .createSecondSign(orderAmount, orderId)
 
-Returns a sign for payment.
+Returns payment sign
 
 
 
