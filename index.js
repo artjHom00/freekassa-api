@@ -1,5 +1,5 @@
 var md5 = require('md5');
-class freekassa { 
+module.exports = class freekassa { 
     constructor(merchantId, firstPhrase, secondPhrase) {
     this.merchantId = merchantId;
     this.firstPhrase = firstPhrase;
@@ -18,5 +18,4 @@ class freekassa {
     createSecondSign(orderAmount, orderId) {
         return md5(this.merchantId + ':' + orderAmount + ':' + this.secondPhrase + ':' + orderId);
     }
-    }
-module.exports.freekassa = freekassa
+}
