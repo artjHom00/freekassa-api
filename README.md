@@ -30,9 +30,9 @@ Returns payment sign
 
 ```js
  var freekassa = require('free-kassa-api');
- var FK = new freekassa('merchantId', 'firstSecretPhrase', 'secondSecretPhrase');
+ var FK = new freekassa('merchantId', 'firstSecretPhrase', 'secondSecretPhrase', 'currency');
  
- var url = FK.createFormURL('id', 'price', {
+ var url = FK.createFormURL('amount', 'id', {
   extraParameter1: 'example',
   extraParameter2: '1'
  });
